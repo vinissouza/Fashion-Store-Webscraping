@@ -16,7 +16,7 @@ deliver a report capable of answering the following questions:
 - What types and colors should be considered for the launch collection?
 - What are the raw materials needed to produce the pants?
 
-All the context about this project is completely fictitious, incluidng company, CEO and business issues.
+All the context about this project is completely fictitious, including company, CEO and business issues.
 
 This is a project provided by <i>Comunidade DS</i>.
 
@@ -27,18 +27,42 @@ This is a project provided by <i>Comunidade DS</i>.
 
 
 ## Solution Strategy
-This project follow the methodology from CRISP-DM. The main steps followed by this project
-was descriptive bellow:
-1. Built a database that contains price, color, type, material and others interests info from product.
-2. Define the schema to table.
-3. Define the design for ETL.
-4. Schedule from update the database.
-5. Calculate the median of price by product, type and color from last 30 days.
-6. Create the visualization dashboard with Streamlit/Tableau.
-7. Delivery the final product.
+This project was developed based on the CRISP-DS (Cross-Industry Standard Process - 
+Data Science, a.k.a. CRISP-DM) project management method, adapted to the project at
+hand by following these steps:
+
+- **Business Understanding:** Determine business objectives, key assumptions, constrains,
+data mining goals and project plan.
+- **Data Understanding:** Collect initial data from competitors, checking its quality and enunciate
+the description of the data set.
+- **Data Preparation:** Create a database schema, select, clean, transform, format and integrate
+into the database.
+- **Modeling:** Explore: Explore the data to generate a list of hypotheses and insights to assist in 
+building the dashboard with the report on competitors.
+- **Evaluation:** Review project and determine business results and next steps.
+- **Deployment:** Deploy a dashboard with analysis and finding in a cloud environment and produce
+final documentation.
+
+
+<details>
+<summary> <strong> First development cycle - 31-01 - 04-02-2022: </strong> </summary>
+<ol>
+<li> Analysis of competitors website: <a href="https://www2.hm.com/en_us/men/products/jeans.html">H&M jeans for men </a> </li> 
+<li> Define which metrics will be collect and database schema. </li>
+<li> Define scraping process. </li> 
+<li> Collect initial data. </li>
+<li> Data preparing, cleaning and transform. </li>
+<li> Integrate in database. </li>
+<li> Data analysis. </li>
+<li> Create hypothesis and main insights. </li>
+<li> Built a dashboard report. </li>
+<li> Deploy model. </li>
+</ol>
+</details>
+
 
 ## Main Data Insights
-mapa de métricas
+mapa de métricas explorados nesse projeto
 
 metrics to be collect:
 - preço
@@ -83,3 +107,5 @@ Step by step of create and load database
 
 ## Next Steps
 - Airflow to schedule and constantly update the database and hel in decision-make
+- Business friendly data visualization data software: Tableau
+- Selenium to collect more data available only with javascript interactive
