@@ -69,7 +69,7 @@ Through exploratory data analysis done on data collected in a single day, the ma
 
 #### Insight 01: The composition with 98% cotton and 2% spandex is the most common, with a 33% presence in all products.
 
-![Insights_01](https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-01.jpg?raw=true "Insights 01")
+![Insights_01](https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-01.png?raw=true "Insights 01")
 
 - Product made with 98% cotton and 2% spandex has a **mean price** of **$22.82** and **median price** of **$20.99**.
 - Product made with 98% cotton and 2% spandex has a **maximum price** of **$39.99** and **minimum price** of **$7.99**.
@@ -79,7 +79,7 @@ Through exploratory data analysis done on data collected in a single day, the ma
 
 #### Insight 02: On average, each model has 6 different colors and the most common colors are denim blue,light denim blue, black, dark denim blue, dark gray, and dark blue.
 
-![Insights_02](https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-02.jpg?raw=true "Insights 02")
+![Insights_02](https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-02.png?raw=true "Insights 02")
 
 - _Denim Blue_ is the most common color with **19%** of presence, followed by _Light Denim Blue_ with **18%** and _Black_ with _13%_.
 - _Denim Blue_ has a **mean price** of **$26.18** and a **median price** of **$24.99**.
@@ -88,7 +88,7 @@ Through exploratory data analysis done on data collected in a single day, the ma
 
 #### Insight 03: _Skinny Fit_ is the most common fit with a 37% presence in all products.
 
-![Insights_03](https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-03.jpg?raw=true "Insights 03")
+![Insights_03](https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-03.png?raw=true "Insights 03")
 
 - _Slim Fit_ is the second most common fit with 29% of presence, followed by _Regular Fit_ with 21%.
 - _Skinny Fit_  has a **maximum price** of **$39.99** and **minimum price** of **$7.99**.
@@ -98,7 +98,7 @@ Through exploratory data analysis done on data collected in a single day, the ma
 
 #### Insight 04: The most popular product category is _Men Jeans Slim_ with a 29% of presence in all products.
 
-![Insights_04](https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-04.jpg?raw=true "Insights 04")
+![Insights_04](https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-04.png?raw=true "Insights 04")
 
 - _Mean Jeans Skinny_ is the second most common category with **20%**, followed by _Men Jeans Regular_ with **19%** and _Men Jeans Ripped_ with **17%**.
 - _Men Jeans Slim_ has a **mean price** of **$27.13** and a **median price** of **$22.99**.
