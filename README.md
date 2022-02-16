@@ -130,7 +130,7 @@ metrica de faturamento ( ticket médio, markup médio) , crescimento ou retenç�
 ### Extraction process
 Step by step of scraping process
 
-<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/etl_colect_model.png?raw=true" alt="etl_collect_model" width="300px" class="center"/>
+<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/etl_collect_model.png?raw=true" alt="etl_collect_model" width="300px" class="center"/>
 
 ###Transform process
 Step by step of cleaning and transform data
@@ -147,13 +147,12 @@ Step by step of cleaning and transform data
 
 <img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/etl_transform_attributes_model.png?raw=true" alt="etl_collect_model" width="300px" class="center"/>
 
-talvez adicionar uma imagem com o processo de transformação (recomendado)
 ###Load process
 Step by step of create and load database
 
 colocar nessa seção a explicação de cada metrica
 
-coloar nessa seção a imagem do schema da base de dados
+<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/database_schema.png?raw=true" alt="etl_collect_model" width="300px" class="center"/>
 
 ## <del>Machine Learning Performance</del>
 
