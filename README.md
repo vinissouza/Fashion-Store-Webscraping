@@ -87,7 +87,7 @@ Through exploratory data analysis done on data collected in a single day, the ma
 #### Insight 02: On average, each model has 6 different colors and the most common colors are denim blue,light denim blue, black, dark denim blue, dark gray, and dark blue.
 
 
-<img  align = "center" src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-02.png?raw=true" alt="etl_collect_model" width="700px" class="center"/>
+<img  align = "center" src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-02.png?raw=true" alt="etl_collect_model" width="500px" class="center"/>
 <figcaption><b>Fig.2 - Product Color Features</b></figcaption>
 
 
@@ -100,7 +100,7 @@ Through exploratory data analysis done on data collected in a single day, the ma
 #### Insight 03: _Skinny Fit_ is the most common fit with a 37% presence in all products.
 
 
-<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-03.png?raw=true" alt="etl_collect_model" width="700px" class="center"/>
+<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-03.png?raw=true" alt="etl_collect_model" width="600px" class="center"/>
 <figcaption><b>Fig.3 - Product Fit Features</b></figcaption>
 
 - _Slim Fit_ is the second most common fit with 29% of presence, followed by _Regular Fit_ with 21%.
@@ -113,7 +113,7 @@ Through exploratory data analysis done on data collected in a single day, the ma
 #### Insight 04: The most popular product category is _Men Jeans Slim_ with a 29% of presence in all products.
 
 
-<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-04.png?raw=true" alt="etl_collect_model" width="700px" class="center"/>
+<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-04.png?raw=true" alt="etl_collect_model" width="600px" class="center"/>
 <figcaption><b>Fig.4 - Product Category Features</b></figcaption>
 
 
@@ -155,7 +155,7 @@ Diagrams of data cleaning and transformation for each dataframe are given below:
 - **Showroom Transform:**
 
 
-<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/etl_transform_showroom_model.png?raw=true" width="500px" class="center"/>
+<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/etl_transform_showroom_model.png?raw=true" width="550px" class="center"/>
 <figcaption><b>Fig.6 - Showroom Data Transform Process - 1st Cycle</b></figcaption>
 
 - **Color Transform:**
