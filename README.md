@@ -74,10 +74,10 @@ Through exploratory data analysis done on data collected in a single day, the ma
 
 #### Insight 01: The composition with 98% cotton and 2% spandex is the most common, with a 33% presence in all products.
 
-<p>
+
 <img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-01.png?raw=true" alt="etl_collect_model" width="700px" class="center"/>
-<em>Material Composition Features</em>
-</p>
+<figcaption><b>Fig.1 - Material Composition Features</b></figcaption>
+
 
 - Product made with 98% cotton and 2% spandex has a **mean price** of **$22.82** and **median price** of **$20.99**.
 - Product made with 98% cotton and 2% spandex has a **maximum price** of **$39.99** and **minimum price** of **$7.99**.
@@ -86,10 +86,10 @@ Through exploratory data analysis done on data collected in a single day, the ma
 
 #### Insight 02: On average, each model has 6 different colors and the most common colors are denim blue,light denim blue, black, dark denim blue, dark gray, and dark blue.
 
-<p>
-<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-02.png?raw=true" alt="etl_collect_model" width="300px" class="center"/>
-<em>Product Color Features</em>
-</p>
+
+<img  align = "center" src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-02.png?raw=true" alt="etl_collect_model" width="700px" class="center"/>
+<figcaption><b>Fig.2 - Product Color Features</b></figcaption>
+
 
 - _Denim Blue_ is the most common color with **19%** of presence, followed by _Light Denim Blue_ with **18%** and _Black_ with _13%_.
 - _Denim Blue_ has a **mean price** of **$26.18** and a **median price** of **$24.99**.
@@ -99,10 +99,9 @@ Through exploratory data analysis done on data collected in a single day, the ma
 
 #### Insight 03: _Skinny Fit_ is the most common fit with a 37% presence in all products.
 
-<p>
-<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-03.png?raw=true" alt="etl_collect_model" width="400px" class="center"/>
-<em>Product Fit Features</em>
-</p>
+
+<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-03.png?raw=true" alt="etl_collect_model" width="700px" class="center"/>
+<figcaption><b>Fig.3 - Product Fit Features</b></figcaption>
 
 - _Slim Fit_ is the second most common fit with 29% of presence, followed by _Regular Fit_ with 21%.
 - _Skinny Fit_  has a **maximum price** of **$39.99** and **minimum price** of **$7.99**.
@@ -113,10 +112,9 @@ Through exploratory data analysis done on data collected in a single day, the ma
 
 #### Insight 04: The most popular product category is _Men Jeans Slim_ with a 29% of presence in all products.
 
-<p>
-<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-04.png?raw=true" alt="etl_collect_model" width="400px" class="center"/>
-<em>Product Category Features</em>
-</p>
+
+<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/data-insight-04.png?raw=true" alt="etl_collect_model" width="700px" class="center"/>
+<figcaption><b>Fig.4 - Product Category Features</b></figcaption>
 
 
 - _Mean Jeans Skinny_ is the second most common category with **20%**, followed by _Men Jeans Regular_ with **19%** and _Men Jeans Ripped_ with **17%**.
@@ -141,11 +139,9 @@ dataframes, the first related to the products displayed on the main page (showrr
 information of the available colors of each model and the third related to the attributes found for all the available 
 products, dealing with each color of the models separately.
 
-<p>
-<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/etl_collect_model.png?raw=true" width="600px" class="center"/>
-<em>Scraping Process - 1st Cycle</em>
-</p>
-Step by step of scraping process
+
+<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/etl_collect_model.png?raw=true" width="700px" class="center"/>
+<figcaption><b>Fig.5 - Scraping Process - 1st Cycle</b></figcaption>
 
 
 ###Transform process
@@ -158,24 +154,22 @@ Diagrams of data cleaning and transformation for each dataframe are given below:
 
 - **Showroom Transform:**
 
-<p>
-<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/etl_transform_showroom_model.png?raw=true" width="700px" class="center"/>
-<em>Showroom Data Transform Process - 1st Cycle</em>
-</p>
+
+<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/etl_transform_showroom_model.png?raw=true" width="500px" class="center"/>
+<figcaption><b>Fig.6 - Showroom Data Transform Process - 1st Cycle</b></figcaption>
 
 - **Color Transform:**
 
-<p>
-<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/etl_transform_color_model.png?raw=true" width="700px" class="center"/>
-<em>Color Data Transform Process - 1st Cycle</em>
-</p>
+
+<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/etl_transform_color_model.png?raw=true" width="500px" class="center"/>
+<figcaption><b>Fig.7 - Color Data Transform Process - 1st Cycle</b></figcaption>
+
 
 - **Attributes Transform:**
 
-<p>
+
 <img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/etl_transform_attributes_model.png?raw=true" width="700px" class="center"/>
-<em>Attributes Data Transform Process - 1st Cycle</em>
-</p>
+<figcaption><b>Fig.8 - Attributes Data Transform Process - 1st Cycle</b></figcaption>
 
 ### Load process
 
@@ -186,10 +180,8 @@ for creating and querying tables.
 For better organization and understanding, the data is divided into multiple datasets, demonstrated by the following 
 data schema:
 
-<p>
-<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/database_schema.png?raw=true" width="700px" class="center"/>
-<em>Data Schema - 1st Cycle</em>
-</p>
+<img src="https://github.com/vinissouza/Fashion-Store-Webscraping/blob/main/Images/database_schema.png?raw=true" width="500px" class="center"/>
+<figcaption><b>Fig.9 - Data Schema - 1st Cycle</b></figcaption>
 
 ### Datasets Metrics Description
 
